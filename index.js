@@ -3,7 +3,7 @@
 // set up server
 const express = require('express')
 const app = express()
-app.use(express.static('build'))
+app.use(express.static('public'))
 
 const http = require('http')
 const server = http.createServer(app)

@@ -1,0 +1,18 @@
+div {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100pt;
+}
+
+.label {
+  font-size: 25pt;
+}
+
+body {
+  user-select: none;
+}
+
+td {
+  background-color: gray;
+  width: 100pt;
+  text-align: center;
+}
